@@ -1,0 +1,8 @@
+[ {{- $i := 0 -}}
+  {{- range where .Site.RegularPages "Section" "ne" "" -}}
+     {{- if not .Params.noSearch -}}
+        {{- if gt $i 0 }},{{ end -}}
+        {"uri":"{{ .RelPermalink }}", "title":{{ .Title | jsonify  }}, "content":{{ .Plain | htmlUnescape | jsonify }}, "tags": "{{ delimit .Params.tags ", " }}" }
+        {{- $i = add $i 1 -}}
+     {{- end -}}
+  {{- end -}} ]

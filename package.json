@@ -1,0 +1,25 @@
+{
+  "name": "hugo-orama-search",
+  "version": "0.0.1",
+  "description": "Tutorial to integrate Orama search with a Hugo static site",
+  "scripts": {
+    "start:dev": "hugo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djibe/hugo-orama-search.git"
+  },
+  "keywords": [
+    "hugo",
+    "orama"
+  ],
+  "author": "djibe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djibe/hugo-orama-search/issues"
+  },
+  "homepage": "https://github.com/djibe/hugo-orama-search#readme",
+  "devDependencies": {
+    "hugo-extended": "^0.122.0"
+  }
+}
