@@ -34,7 +34,7 @@ Import *Orama* before your `body` closing tag.
 
 ```html
 <script type="module" async crossorigin>
-  import {create, search, insertMultiple} from 'https://cdn.jsdelivr.net/npm/@orama/orama@2.0.8/dist/index.js';
+  import {create, search, insertMultiple} from 'https://cdn.jsdelivr.net/npm/@orama/orama@2.0.13/dist/index.js';
   import {stemmer} from 'https://cdn.jsdelivr.net/npm/@orama/stemmers/dist/fr.js';
 </script>
 ```
