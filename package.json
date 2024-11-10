@@ -1,6 +1,6 @@
 {
   "name": "hugo-orama-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tutorial to integrate Orama search with a Hugo static site",
   "scripts": {
     "start:dev": "hugo server"
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/djibe/hugo-orama-search#readme",
   "devDependencies": {
-    "hugo-extended": "^0.122.0"
+    "hugo-extended": "^0.135.0"
   }
 }

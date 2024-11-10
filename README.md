@@ -1,6 +1,6 @@
 # Hugo Orama search
 
-An [Orama search](https://oramasearch.com) implementation for [Hugo](https://gohugo.io).
+An [Orama search](https://docs.orama.com/open-source) implementation for [Hugo](https://gohugo.io).
 
 ## 1. Create the database layout
 
@@ -34,7 +34,7 @@ Import *Orama* before your `body` closing tag.
 
 ```html
 <script type="module" async crossorigin>
-  import {create, search, insertMultiple} from 'https://cdn.jsdelivr.net/npm/@orama/orama@2.0.15/dist/index.js';
+  import {create, search, insertMultiple} from 'https://esm.run/@orama/orama@3';
   import {stemmer} from 'https://cdn.jsdelivr.net/npm/@orama/stemmers/dist/fr.js';
 </script>
 ```
